@@ -181,6 +181,6 @@ PRODUCE_BLOCK_BASED_OTA := false
 # Defines whether build an international version of package.
 # Default: false
 #-----------------------------------------------------------------------------
-#PRODUCE_INTERNATIONAL_ROM := true
+PRODUCE_INTERNATIONAL_ROM := true
 
 include $(PORT_BUILD)/main.mk
