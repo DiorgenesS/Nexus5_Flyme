@@ -48,21 +48,22 @@ vendor_remove_dirs := tts
 # You can configure the file name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
 vendor_remove_files := recovery-from-boot.bak \
-					   lib/libjni_eglfence.so \
-					   lib/libjni_filtershow_filters.so \
-					   lib/libjni_jpegstream.so librsjni.so \
+                       lib/libjni_eglfence.so \
+                       lib/libjni_filtershow_filters.so \
+                       lib/libjni_jpegstream.so librsjni.so \
                        lib/libjni_jpegutil.so \
-   					   lib/libjni_latinime.so \
-					   lib/libjni_tinyplanet.so \
-					   lib/libttscompat.so \
-					   lib/libttspico.so 
+                       lib/libjni_latinime.so \
+                       lib/libjni_tinyplanet.so \
+                       lib/libttscompat.so \
+                       lib/libttspico.so
 
 ##############################################################################
 # The value decides the vendor apk which you want to save in the vendor directory for the ota package.
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/priv-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain NfcNci PrintSpooler qcrilmsgtunnel UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FusedLocation InputDevices ProxyHandler SharedStorageBackup Shell
+vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain NfcNci PrintSpooler qcrilmsgtunnel UserDictionaryProvider \
+                     BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FusedLocation InputDevices ProxyHandler SharedStorageBackup Shell
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -143,8 +144,8 @@ override_property += \
 # The default value is Unofficial.
 # You should configure the property according to your ID, ie, replace "Unofficial" with your ID.
 # The property ro.product.model_romer decide your ID on the backend server which statistical data for your device.
-# The default value is Nexus-6P_Unofficial.
-# You should configure the property according to your device and your ID with replace the "Nexus-6P_Unofficial".
+# The default value is Nexus-5_Unofficial.
+# You should configure the property according to your device and your ID with replace the "Nexus-5_Unofficial".
 override_property += \
     ro.flyme.romer=Flyme 6 by Dio_S \
     ro.product.model_romer=hammerhead_dio
