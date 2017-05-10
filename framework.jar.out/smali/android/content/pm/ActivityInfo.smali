@@ -16,6 +16,7 @@
 
 
 # static fields
+
 .field public static final CONFIG_THEME:I = 0x4000
 
 .field public static final CONFIG_TYPEFACE:I = 0x8000
@@ -165,6 +166,7 @@
 
 
 # instance fields
+
 .field public mFlymeActivityInfo:Landroid/content/ActivityInfoExt;
 
 .field public configChanges:I

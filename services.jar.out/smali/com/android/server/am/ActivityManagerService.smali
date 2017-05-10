@@ -3438,6 +3438,7 @@
     .param p5, "nowElapsed"    # J
 
     .prologue
+
     invoke-static/range {p1 .. p1}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->applyFlymeOomAdjLocked(Lcom/android/server/am/ProcessRecord;)V
 
     .line 18748
@@ -7292,6 +7293,7 @@
     .local v59, "killProcess":Z
     :goto_9
     if-eqz v59, :cond_18
+
     invoke-static {v14}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->isFlymePackageShouldRestart(Landroid/content/Intent;)Z
 
     move-result v4
@@ -10869,6 +10871,7 @@
 
     .line 15733
     :cond_15
+
     invoke-static/range {p1 .. p1}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->isRestartFavoriteApp(Lcom/android/server/am/ProcessRecord;)Z
 
     move-result v11
@@ -19400,6 +19403,7 @@
     .param p1, "func"    # Ljava/lang/String;
 
     .prologue
+
     invoke-static {}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->isSystemUid()Z
 
     move-result v0
@@ -30569,6 +30573,7 @@
     .param p2, "userName"    # Ljava/lang/String;
 
     .prologue
+
     invoke-static/range {p0 .. p1}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->flymeShowUserSwitchDialog(Lcom/android/server/am/ActivityManagerService;I)V
 
     return-void
@@ -32539,12 +32544,6 @@
 
     invoke-virtual {v4, v0, v5}, Lcom/android/server/wm/WindowManagerService;->setCurrentUser(I[I)V
 
-    invoke-direct/range {p0 .. p0}, Lcom/android/server/am/ActivityManagerService;->mzIsFalse()Z
-
-    move-result v4
-
-    goto/16 :goto_flyme_0
-
     .line 19987
     move-object/from16 v0, p0
 
@@ -32552,11 +32551,10 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {v4, v5}, Lcom/android/server/wm/WindowManagerService;->lockNow(Landroid/os/Bundle;)V
+    #invoke-virtual {v4, v5}, Lcom/android/server/wm/WindowManagerService;->lockNow(Landroid/os/Bundle;)V
 
     .line 19996
     :goto_0
-    :goto_flyme_0
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lcom/android/server/am/ActivityManagerService;->mStartedUsers:Landroid/util/SparseArray;
@@ -65638,6 +65636,7 @@
 
     .local v12, "i":I
     :goto_5
+    :goto_flyme_0
     if-ge v12, v15, :cond_e
 
     if-lez p1, :cond_e
@@ -65682,7 +65681,6 @@
 
     .line 8469
     :cond_0
-    :goto_flyme_0
     :goto_6
     add-int/lit8 v12, v12, 0x1
 
@@ -67048,6 +67046,7 @@
 
     .line 8535
     .local v0, "tr":Lcom/android/server/am/TaskRecord;
+
     invoke-static/range {p0 .. p1}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->isHomeTask(Lcom/android/server/am/ActivityManagerService;I)Z
 
     move-result v1
@@ -98745,6 +98744,7 @@
 
     .line 19132
     :cond_32
+
     invoke-static/range {p0 .. p0}, Lcom/android/server/am/ActivityManagerService$FlymeActivityManagerServiceInjector;->updateFlymeOomAdjLocked(Lcom/android/server/am/ActivityManagerService;)V
 
     return-void
