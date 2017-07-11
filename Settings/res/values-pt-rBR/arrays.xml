@@ -46,33 +46,42 @@
         <item>Nov</item>
         <item>Dez</item>
     </string-array>
+    <string-array name="mc_custom_weekday">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+    </string-array>
     <string-array name="timezone_filters">
         <item>América</item>
         <item>Europa</item>
         <item>África</item>
         <item>Ásia</item>
         <item>Austrália</item>
-        <item>Oceano Pacífico</item>
+        <item>Pacífico</item>
         <item>Todos</item>
     </string-array>
     <string-array name="screen_timeout_entries">
         <item>15 segundos</item>
         <item>30 segundos</item>
         <item>1 min</item>
-        <item>2 min.</item>
-        <item>5 mins</item>
-        <item>10 min.</item>
-        <item>30 mins</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
     </string-array>
     <string-array name="dream_timeout_entries">
         <item>Nunca</item>
         <item>15 segundos</item>
         <item>30 segundos</item>
         <item>1 min</item>
-        <item>2 min</item>
-        <item>5 min.</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
         <item>10 minutos</item>
-        <item>30 min.</item>
+        <item>30 minutos</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Imediatamente</item>
@@ -82,25 +91,25 @@
         <item>1 min</item>
         <item>2 minutos</item>
         <item>5 minutos</item>
-        <item>10 min</item>
-        <item>30 min</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Pequeno</item>
         <item>Normal</item>
         <item>Grande</item>
-        <item>Extra grande</item>
+        <item>Muito grande</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Muito lento</item>
+        <item>Muito devagar</item>
         <item>Lento</item>
         <item>Normal</item>
         <item>Rápido</item>
         <item>Mais rápido</item>
         <item>Muito rápido</item>
         <item>Rápido</item>
-        <item>Muito Rápida</item>
-        <item>Mais rápido</item>
+        <item>Muito rápido</item>
+        <item>O mais rápido</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Muito baixo</item>
@@ -188,7 +197,7 @@
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Tempo de uso</item>
-        <item>Última vez que utilizou</item>
+        <item>Última utilização</item>
         <item>Nome do app</item>
     </string-array>
     <string-array name="wifi_eap_entries">
@@ -346,7 +355,7 @@
         <item>Localização</item>
         <item>Localização</item>
         <item>Obter estatísticas de uso</item>
-        <item>Mudo/ Microfone com som</item>
+        <item>Ativar/desativar o som do microfone</item>
         <item>Projeto de Mídia</item>
         <item>Ativar VPN</item>
     </string-array>
@@ -358,7 +367,7 @@
     <string-array name="captioning_typeface_selector_titles">
         <item>Predefinição</item>
         <item>Sans-serif</item>
-        <item>Sans-serif condensado</item>
+        <item>Sans-serif condensed</item>
         <item>Sans-serif monospace</item>
         <item>Serif</item>
         <item>Serif monospace</item>
@@ -378,8 +387,8 @@
         <item>Nenhum</item>
         <item>Esboço</item>
         <item>Sombra</item>
-        <item>Protuberância</item>
-        <item>Deprimido</item>
+        <item>Aumentado</item>
+        <item>Baixo relevo</item>
     </string-array>
     <string-array name="captioning_opacity_selector_titles">
         <item>25%</item>
@@ -396,23 +405,23 @@
         <item>Personalizado</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
         <item>16 MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>64K por cada log de buffer</item>
-        <item>256K por registro de buffer</item>
-        <item>1M por cada log de buffer</item>
-        <item>4M por log de buffer</item>
-        <item>16M por log de buffer</item>
+        <item>64 KB por memória de registo</item>
+        <item>256 KB por memória de registo</item>
+        <item>1 MB por memória de registo</item>
+        <item>4 MB por memória de registo</item>
+        <item>16 MB por memória de registo</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Nunca verificar</item>
@@ -425,31 +434,31 @@
         <item>Sempre utilizar verificação HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animação zoom 0.5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
+        <item>Animação desligada</item>
+        <item>Escala de animação 0,5x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1,5x</item>
+        <item>Escala de animação 2x</item>
         <item>Escala de animação 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Escala de animação 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Desligar animação</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animação zoom de 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animação desligada</item>
+        <item>Escala de animação 0,5x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1,5x</item>
+        <item>Escala de animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animação desligada</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animação zoom de 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Escala de animação 0,5x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1,5x</item>
+        <item>Escala de animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Nenhum</item>
@@ -464,31 +473,31 @@
     <string-array name="enable_opengl_traces_entries">
         <item>Nenhum</item>
         <item>Logcat</item>
-        <item>Systrace (Graphics)</item>
-        <item>Invoke stack on glGetError</item>
+        <item>Systrace (gráficos)</item>
+        <item>Invocar pilha em glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Deslig.</item>
-        <item>Pinte de azul a área de recorte não retangular</item>
-        <item>Highlight tested drawing commands in green</item>
+        <item>Desligado</item>
+        <item>Desenhar região de clip não retangular em azul</item>
+        <item>Destacar comandos de desenho testados a verde</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Fechar</item>
+        <item>Desligado</item>
         <item>Mostrar na tela como barras</item>
         <item>Em adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Desligado</item>
-        <item>Show overdraw areas</item>
-        <item>Mostrar áreas para Deuteranomalia</item>
+        <item>Mostrar áreas overdraw</item>
+        <item>Mostrar áreas para deuteranomalia</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Limite padrão</item>
         <item>Sem processos em segundo plano</item>
-        <item>No máximo um processo</item>
+        <item>No máximo 1 processo</item>
         <item>No máximo 2 processos</item>
-        <item>Pelo menos 3 processos</item>
-        <item>Ao menos 4 processos</item>
+        <item>No máximo 3 processos</item>
+        <item>No máximo 4 processos</item>
     </string-array>
     <string-array name="vpn_types_long">
         <item>VPN PPTP</item>
@@ -510,7 +519,7 @@
     <string-array name="security_settings_premium_sms_values">
         <item>Perguntar</item>
         <item>Nunca permitir</item>
-        <item>Perguntar sempre</item>
+        <item>Permitir sempre</item>
     </string-array>
     <string-array name="ram_states">
         <item>Normal</item>
@@ -519,9 +528,9 @@
         <item>Crítico</item>
     </string-array>
     <string-array name="entries_zen_mode">
-        <item>Deslig.</item>
+        <item>Desligado</item>
         <item>Interrupções limitadas</item>
-        <item>Zero interrupções</item>
+        <item>Sem interrupções</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Normal</item>
@@ -530,12 +539,12 @@
         <item>Crítico</item>
     </string-array>
     <string-array name="proc_stats_process_states">
-        <item>Residente</item>
-        <item>Principais atividades</item>
+        <item>Persistente</item>
+        <item>Principal atividade</item>
         <item>Importante (primeiro plano)</item>
         <item>Importante (segundo plano)</item>
-        <item>Backup</item>
-        <item>Peso-pesado</item>
+        <item>Cópia de segurança</item>
+        <item>Utilização intenso</item>
         <item>Serviço (em execução)</item>
         <item>Serviço (reiniciando)</item>
         <item>Receptor</item>
@@ -546,9 +555,9 @@
         <item>Cache (vazia)</item>
     </string-array>
     <string-array name="color_picker">
-        <item>Verde-azulado</item>
-        <item>Blue</item>
-        <item>Índigo</item>
+        <item>Azul-petróleo</item>
+        <item>Azul</item>
+        <item>Indigo</item>
         <item>Roxo</item>
         <item>Rosa</item>
         <item>Vermelho</item>
@@ -556,37 +565,37 @@
     <string-array name="sim_slot">
         <item>(não especificado)</item>
         <item>Slot SIM 1</item>
-        <item>SIM Slot 2</item>
+        <item>Slot SIM 2</item>
     </string-array>
     <string-array name="vpn_states_ext_mtpd_exit">
         <item>Erro do sistema</item>
         <item>Erro de rede</item>
         <item>Erro de protocolo</item>
         <item>Falha no desafio L2pt</item>
-        <item>Usuário solicitado</item>
+        <item>Falha na conexão MTP, tente novamente</item>
         <item>Desconectado pelo servidor. Verifique o nome do usuário e a senha</item>
         <item>O protocolo não é compatível</item>
         <item>Falha ao obter endereço do servidor</item>
         <item>Falha ao conectar ao servidor (serviço VPN não suportado pelo servidor)</item>
     </string-array>
     <string-array name="vpn_states_ext_pppd_exit">
-        <item>Erro fatal no PPP</item>
-        <item>Erro relacionado com o parâmetro de opção PPP</item>
-        <item>Deve ter acesso root para executar pppd</item>
+        <item>Erro fatal</item>
+        <item>Erro relacionado com a opção</item>
+        <item>Deve ter acesso root para executar PPP</item>
         <item>Sem suporte kernel</item>
-        <item>Pedido do usuário</item>
+        <item>Falha na conexão PPP, tente novamente</item>
         <item>Falha ao bloquear arquivo do dispositivo</item>
         <item>Falha ao abrir arquivo do dispositivo</item>
         <item>Falhou</item>
         <item>Falhou</item>
-        <item>Falha na negociação de autenticação</item>
-        <item>O servidor recusou-se a autenticar. Ligação finalizada</item>
+        <item>Falha na autenticação</item>
+        <item>O servidor recusou-se a autenticar. Conexão finalizada</item>
         <item>Conexão encerrada devido à falha de atividade.</item>
         <item>Tempo da conexão excedido</item>
         <item>Falhou</item>
         <item>O servidor não responde</item>
         <item>Erro desconhecido</item>
-        <item>Loopback detectado. Ligação terminada</item>
+        <item>Looppack detetado</item>
         <item>Falhou</item>
         <item>Falha na autenticação: verifique o nome de usuário e a senha</item>
         <item>Limite de tráfego excedido</item>
@@ -601,7 +610,7 @@
         <item>Puxar a tela para baixo</item>
         <item>Iniciar barra de notificações</item>
         <item>Tela bloqueada</item>
-        <item>Abrir Multitasking</item>
+        <item>Iniciar gerenciador de tarefas</item>
     </string-array>
     <string-array name="smart_touch_behavior_long_entries">
         <item>Desligar</item>
@@ -628,7 +637,12 @@
     </string-array>
     <string-array name="home_key_behavior_entries">
         <item>Ativar Smart Voice</item>
-        <item>Desligar a tela</item>
+        <item>Desligar o ecrã</item>
+    </string-array>
+    <string-array name="home_key_behavior_double_click_entries">
+        <item>Iniciar câmera</item>
+        <item>Reproduzir música com a tela bloqueado</item>
+        <item>Sem resposta</item>
     </string-array>
     <string-array name="wakeupType_entries">
         <item>Duplo clique</item>
@@ -646,10 +660,19 @@
     </string-array>
     <string-array name="entries_meizu_app_font_size">
         <item>Pequeno</item>
-        <item>Padrão</item>
+        <item>Normal</item>
         <item>Médio</item>
         <item>Grande</item>
-        <item>Enorme</item>
+        <item>Muito grande</item>
+    </string-array>
+    <string-array name="flyme_screen_timeout_entries">
+        <item>30 seg.</item>
+        <item>1 min.</item>
+        <item>2 min.</item>
+        <item>5 min.</item>
+        <item>10 min.</item>
+        <item>30 min.</item>
+        <item>Nunca</item>
     </string-array>
     <string-array name="preferred_network_mode_choices_simple_mrvl">
         <item>2G somente</item>
@@ -661,27 +684,21 @@
         <item>3G/2G (auto)</item>
     </string-array>
     <string-array name="keyboard_back_behavior_entries">
-        <item>Recolher teclado</item>
-        <item>Fechar o teclado e retornar</item>
+        <item>Ocultar teclado</item>
+        <item>Ocultar teclado e retornar</item>
     </string-array>
     <string-array name="app_standby_permission">
-        <item>Permitir plano de fundo em execução</item>
-        <item>Desativar operação em standby</item>
+        <item>Permitir a execução em segundo plano</item>
+        <item>Desativar execução em segundo plano</item>
     </string-array>
     <string-array name="app_wakeup_permission">
         <item>Avisos programados</item>
         <item>Despertador inteligente</item>
         <item>Desligar despertador</item>
     </string-array>
-    <string-array name="display_mode_entries">
-        <item>Modo adaptativo</item>
-        <item>Modo padrão</item>
-        <item>Modo fotografia</item>
-        <item>Modo colorido</item>
-    </string-array>
     <string-array name="knock_control_entries">
         <item>Puxe a barra de notificações para baixo</item>
-        <item>Captura da tela</item>
+        <item>Print</item>
         <item>Liberar memória</item>
         <item>mudar para o último aplicativo</item>
         <item>Desligar tela</item>
@@ -691,37 +708,67 @@
         <item>Fechar dica de risco</item>
     </string-array>
     <string-array name="window_animation_scale_entries_flyme">
-        <item>Animação desabilitada</item>
-        <item>Animação de escala 0.5x</item>
-        <item>Animação de escala 0.75x</item>
-        <item>Animação de escala 1x</item>
-        <item>Animação de escala 1.5x</item>
-        <item>Animação de escala 2x</item>
-        <item>Animação escala 5x</item>
-        <item>Animação de escala 10x</item>
+        <item>Desligue Animação</item>
+        <item>Escala de animação 0.5x</item>
+        <item>Escala de animação 0.75x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1.5x</item>
+        <item>Escala de animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries_flyme">
-        <item>Animação desativada</item>
-        <item>Animação de escala 0.5x</item>
-        <item>Animação de escala 0.75x</item>
-        <item>Animação de escala 1x</item>
-        <item>Animação de escala 1.5x</item>
-        <item>Animação de escala 2x</item>
-        <item>Animação de escala 5x</item>
-        <item>Animação de escala 10x</item>
+        <item>Desligue Animação</item>
+        <item>Escala de Animação 0.5x</item>
+        <item>Escala de Animação 0.75x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1.5x</item>
+        <item>Escala de animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries_flyme">
-        <item>Animação desativada</item>
-        <item>Animação de escala 0.5x</item>
-        <item>Animação de escala 0.75x</item>
-        <item>Animação escala 1x</item>
-        <item>Animação escala 1.5x</item>
-        <item>animação de escala 2x</item>
-        <item>Animação de escala 5x</item>
-        <item>Animação de escala 10x</item>
+        <item>Desligue Animação</item>
+        <item>Escala de animação 0,5x</item>
+        <item>Escala de animação 0,75x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1.5x</item>
+        <item>Escala de Animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
     </string-array>
     <string-array name="network_use_entry">
-        <item>Somente rede local</item>
-        <item>Rede Local + Roaming</item>
+        <item>Home apenas</item>
+        <item>Home + Roaming</item>
+    </string-array>
+    <string-array name="force_touch_level_entries">
+        <item>Desativar</item>
+        <item>Suave</item>
+        <item>Média</item>
+        <item>Forte</item>
+    </string-array>
+    <string-array name="children_mode_anti_addiction_duration_names">
+        <item>30 min</item>
+        <item>60 min</item>
+        <item>2 h</item>
+        <item>@string/children_mode_time_duration_never</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>Adaptativo</item>
+        <item>Padrão</item>
+        <item>Fotografia</item>
+        <item>Dinâmico</item>
+    </string-array>
+    <string-array name="homekey_volume_level_entries">
+        <item>Desativado</item>
+        <item>Sussurro</item>
+        <item>Médio</item>
+        <item>Alto</item>
+    </string-array>
+    <string-array name="homekey_feedback_level_entries">
+        <item>Desativado</item>
+        <item>Suave</item>
+        <item>Médio</item>
+        <item>Forte</item>
     </string-array>
 </resources>

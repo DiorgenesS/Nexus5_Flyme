@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="apn_reset">Restaurar</string>
     <string name="alwaysUse">Usar esta ação por padrão</string>
     <string name="date_time_set">Definir</string>
     <string name="mz_date_time_day">d</string>
@@ -837,6 +836,7 @@ Você não poderá ativar os recursos de proteção do aparelho durante este per
     <string name="lock_sounds_enable_title">Sons de bloqueio de tela</string>
     <string name="other_longpress_feedback_enable_title">Vibrar ao tocar</string>
     <string name="haptic_feedback_category_title">Vibração</string>
+    <string name="sound_system_category_title">Som</string>
     <string name="haptic_feedback_enable_title">Vibrar ao tocar</string>
     <string name="homekey_feedback_enable_title">Vibrar ao tocar</string>
     <string name="audio_record_proc_title">Cancelamento de ruído</string>
@@ -933,7 +933,7 @@ O PIN está possivelmente incorreto."</string>
     <string name="fcc_equipment_id">ID do dispositivo</string>
     <string name="baseband_version">Versão do Baseband</string>
     <string name="kernel_version">Versão do kernel</string>
-    <string name="build_number">Versão da Flyme</string>
+    <string name="build_number">Versão</string>
     <string name="selinux_status">SELinux status</string>
     <string name="device_info_not_available">Não disponível</string>
     <string name="device_status_activity_title">Estado</string>
@@ -1910,8 +1910,6 @@ bateria. bateria."</string>
 O Administrador tem a capacidade de monitorar e gerenciar as configurações, acesso, aplicativos e dados associados com este usuário, incluindo a atividade de rede e informações da localização de seu dispositivo."</string>
     <string name="untitled_apn">Sem título</string>
     <string name="sound_category_sound_title">Geral</string>
-    <string name="sound_settings">Som</string>
-    <string name="sound_system_category_title">Som</string>
     <string name="notification_log_title">Log de notificações</string>
     <string name="sound_category_call_ringtone_vibrate_title">Toques e vibração</string>
     <string name="sound_category_system_title">Sistema</string>
@@ -2567,6 +2565,10 @@ Isso ajuda a proteger dados em dispositivos perdidos ou roubados."</string>
     <string name="mock_location_app">Selecione o aplicativo de informações de localização</string>
     <string name="mock_location_app_not_set">Nenhum aplicativo de localização definido</string>
     <string name="mock_location_app_set">Aplicativo de simulação de localização: %1$s</string>
+    <string name="usb_use_power_only">Fonte de alimentação</string>
+    <string name="usb_use_power_only_desc">Carregar o outro dispositivo conectado</string>
+    <string name="usb_use_MIDI">MIDI</string>
+    <string name="usb_use_MIDI_desc">Usar dispositivo para entrada de MIDI</string>
     <string name="bluetooth_access_contact_call_history">Acessar aos contatos e ao histórico de chamadas</string>
     <string name="bt_waiting">Aguarde</string>
     <string name="ok">OK</string>
@@ -2692,7 +2694,6 @@ Isso ajuda a proteger dados em dispositivos perdidos ou roubados."</string>
     <string name="use_simple_password">Utilize senha simples</string>
     <string name="security_items_title">Proteção por senha</string>
     <string name="file_manager_lock">Cofre</string>
-    <string name="screen_lock">Bloqueio de tela</string>
     <string name="shutdown_verify_password">Verificar senha quando o telefone desligar</string>
     <string name="unacceptable_char">Não pode conter caracteres inválidos|\\/:*?\"&lt;></string>
     <string name="credentials_and_admin_title">Dispositivos e credenciais</string>
@@ -3473,8 +3474,8 @@ Para assegurar o bom funcionamento, o assistente de envelope da sorte irá atual
     <string name="phone_pwd_summary">Utilizar para gerenciamento de digitais e desbloqueio de tela</string>
     <string name="phone_pwd_summary_no_fp">Utilizar para desbloqueio da tela</string>
     <string name="phone_pwd_category">Utilizar senha para</string>
+    <string name="screen_lock">Bloqueio da tela</string>
     <string name="password_and_fingerprint">Senha e digitais</string>
-    <string name="other_password">Outras senhas</string>
     <string name="use_fingprint">Utilizar impressão digital</string>
     <string name="notification_manager">Configurações das notificações</string>
     <string name="wifi_menu_disconnect">Desconectar rede</string>
@@ -3509,6 +3510,7 @@ Para assegurar o bom funcionamento, o assistente de envelope da sorte irá atual
     <string name="launcher_notification_notify_summary">Exibir uma notificação importante sobre o nome do app</string>
     <string name="password_secure_protection">Proteção por senha</string>
     <string name="strong_font_title">Letra em negrito</string>
+    <string name="children_mode_time_duration_never">Nenhum</string>
     <string name="use_flyme_icon_summary">Substituir ícones dos aplicaticos pelos ícones do estilo Flyme</string>
     <string name="flyme_avatar_title">Avatars de estilo Flyme</string>
     <string name="flyme_avatar_summary">Substituir os avatares dos contatos pelos avatares do estilo Flyme</string>
@@ -3522,27 +3524,27 @@ Para assegurar o bom funcionamento, o assistente de envelope da sorte irá atual
     <string name="mz_timezone_pacific_midway">Ilha Midway</string>
     <string name="mz_timezone_pacific_honolulu">Havaí</string>
     <string name="mz_timezone_america_anchorage">Alasca</string>
-    <string name="mz_timezone_america_los_angeles">Hora do Pacífico (Los Angeles)</string>
+    <string name="mz_timezone_america_los_angeles">Hora do Pacífico</string>
     <string name="mz_timezone_america_tijuana">Tijuana</string>
     <string name="mz_timezone_america_phoenix">Arizona</string>
     <string name="mz_timezone_america_chihuahua">Chihuahua</string>
-    <string name="mz_timezone_america_denver">Hora Montanha US</string>
-    <string name="mz_timezone_america_costa_rica">Hora Central (Costa Rica)</string>
-    <string name="mz_timezone_america_chicago">Horário Central (Chicago)</string>
+    <string name="mz_timezone_america_denver">Hora das Regiões Montanhosas</string>
+    <string name="mz_timezone_america_costa_rica">América Central</string>
+    <string name="mz_timezone_america_chicago">Horário Central</string>
     <string name="mz_timezone_america_mexico_city">Cidade do México</string>
     <string name="mz_timezone_america_regina">Saskatchewan</string>
     <string name="mz_timezone_america_bogota">Bogotá</string>
     <string name="mz_timezone_america_new_york">Hora do Leste (Nova York)</string>
     <string name="mz_timezone_america_caracas">Venezuela</string>
-    <string name="mz_timezone_america_barbados">Hora do Atlântico (Barbados)</string>
+    <string name="mz_timezone_america_barbados">Horário do Atlântico (Barbados)</string>
     <string name="mz_timezone_america_manaus">Manaus</string>
     <string name="mz_timezone_america_santiago">Santiago</string>
     <string name="mz_timezone_america_st_johns">Terra Nova</string>
     <string name="mz_timezone_america_sao_paulo">Brasília</string>
     <string name="mz_timezone_america_argentina_buenos_aires">Buenos Aires</string>
-    <string name="mz_timezone_america_godthab">Groenlândia</string>
-    <string name="mz_timezone_america_montevideo">Montevidéu</string>
-    <string name="mz_timezone_atlantic_south_georgia">Mid-Atlantic</string>
+    <string name="mz_timezone_america_godthab">Gronelândia</string>
+    <string name="mz_timezone_america_montevideo">Montevideu</string>
+    <string name="mz_timezone_atlantic_south_georgia">Médio Atlântico</string>
     <string name="mz_timezone_atlantic_azores">Açores</string>
     <string name="mz_timezone_atlantic_cape_verde">Ilhas de Cabo Verde</string>
     <string name="mz_timezone_africa_casablanca">Casablanca</string>
@@ -3612,4 +3614,5 @@ Para assegurar o bom funcionamento, o assistente de envelope da sorte irá atual
     <string name="has_mark_read">Foi marcado como lido</string>
     <string name="pull_to_mark_unread">Puxe para marcar como não lido</string>
     <string name="has_mark_unread">Foi marcado como lido</string>
+    <string name="other_password">Outras senhas</string>
 </resources>
