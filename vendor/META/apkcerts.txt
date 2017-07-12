@@ -8,7 +8,6 @@ name="CallLogBackup.apk" certificate="build/security/shared.x509.pem" private_ke
 name="Camera2.apk" certificate="PRESIGNED" private_key=""
 name="CaptivePortalLogin.apk" certificate="build/security/platform.x509.pem" private_key="build/security/platform.pk8"
 name="CarrierConfig.apk" certificate="build/security/platform.x509.pem" private_key="build/security/platform.pk8"
-name="CellBroadcastReceiver.apk" certificate="build/security/platform.x509.pem" private_key="build/security/platform.pk8"
 name="CertInstaller.apk" certificate="build/security/platform.x509.pem" private_key="build/security/platform.pk8"
 name="Contacts.apk" certificate="build/security/shared.x509.pem" private_key="build/security/shared.pk8"
 name="ContactsProvider.apk" certificate="build/security/shared.x509.pem" private_key="build/security/shared.pk8"
